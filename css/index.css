@@ -177,9 +177,11 @@ header {
   margin-top: 5px;
   flex-direction: row-reverse;
 }
+
 .home-link {
   margin-right: 70px;
 }
+
 .nav-link {
   font-size: 22px;
   text-decoration: none;
@@ -382,6 +384,7 @@ footer {
   }
 
   .logo {
+    margin: 10px 0;
     float: none;
   }
 
@@ -399,6 +402,10 @@ footer {
   .home-link {
     width: 100%;
     text-align: center;
+  }
+
+  .card-sections {
+    flex-direction: column;
   }
 }
 
